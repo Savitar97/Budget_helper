@@ -40,6 +40,13 @@ Ez adott motivációt nekünk ahhoz, hogy aki függő, de szeretne segíteni mag
 Viszont ez az alkalmazás szerintünk hasznos lehet normál felhasználó számára is,
 aki csak szimplán egyszerű és gyors módon szeretné követni az egyenlegét (tehát nem kell belépni külön a bank oldalára, ami plusz idő és pénz).
 
+## 2. Vágyálom rendszer
+
+&nbsp;&nbsp;&nbsp;&nbsp;Maga a megvalósítás egy személyi megkeresés miatt került az asztalra, aki rendelni szeretne egy a saját igényeihez passzoló követő alkalmazást.
+A rendszer jellemzőivel pedig így Ufo Peti kéréseinek és elképzeléseinek tervezünk megfelelni.
+Célunk egy olyan alkalmazás létrehozása, amelyben a felhasználó teljesen le tudja követni a bevételei és a kiadásai arányát havi és heti bontásban, ezzel átláthatóan felügyelve a költségvetését.
+Tehát, amennyiben szeretné, akkor megálljt tud parancsolni magának.
+
 
 ## 3. Jelenlegi üzleti folyamatok
 
