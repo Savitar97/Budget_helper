@@ -26,3 +26,34 @@ Azonban tartós maradt ez az időszak, és sokan rászoktak erre.
 Ilyenkor pedig mit csinál egy ember? -tehetjük fel a kérdést.
 Megpróbálja elfoglalni magát, és ahhoz gyakran új dolgokra vagy tevékenységre van szükség, ami pedig újabb vásárlási hullámot eredményez.
 Nem számított az, hogy azt az adott dolgot, vagy épp új hobbit meddig fogjuk folytatni (1 nap, 1 év, vagy egy életen át).
+
+
+## 3. Jelenlegi üzleti folyamatok
+
+&nbsp;&nbsp;&nbsp;&nbsp;Jelenleg akik nem használnak semmilyen segítséget, hanem ész nélkül szórják a pénzt, azok könnyen fizetésképtelenné válhatnak.
+A mi esetünkben U.P. eddig papírcetliken vezette a pénzmozgásait, de ez számára nem volt a legjobb megoldás, mert gyakran elhagyta ezt a cetlit.
+Emiatt pedig nagy problémája, hogy hosszú távon nem tudja lekövetni a kiadásait, és erre jelenthet megoldást egy digitális rendszer.
+
+
+## 4. Igényelt üzleti folyamatok
+
+- Egyedi program, tehát saját számítógépen kell futnia.
+- A bevétel és a kiadások bejegyzése az adatbázisba: a felhasználó tehesse meg ezeket a lépéseket
+- Az aktuális egyenleg megjelenítése.
+- A költekezési statisztika megjelenítése.
+    
+    
+## 5. A rendszerre vonatkozó szabályok
+
+- Java, Javafx és saját adatbázis
+- Java verzió: 13-as, vagy újabb
+
+
+## 6. Követelménylista
+
+- Ezzel az alkalmazással, mindig naprakész lehet a felhasználó az általa kívánt információkkal, és pontosan követni tudja a kiadásait és bevételeit.
+- Mivel egyszerű hétköznapi felhasználóként szeretné használni, ezért elvárás az egyszerűség, könnyű átláthatóság/kezelés illetve a platformfüggetlenség.
+- Az adattárolás saját adatbázisban működjön.
+- A pénznem a felhasználó által használt legyen (ergo forint).
+- Statisztikai kimutatás a költekezésekről.
+- Érdemes egy későbbi esetleges funkcióbővítési kéréssel számolni.
