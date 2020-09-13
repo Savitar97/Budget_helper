@@ -27,6 +27,19 @@ Ilyenkor pedig mit csinál egy ember? -tehetjük fel a kérdést.
 Megpróbálja elfoglalni magát, és ahhoz gyakran új dolgokra vagy tevékenységre van szükség, ami pedig újabb vásárlási hullámot eredményez.
 Nem számított az, hogy azt az adott dolgot, vagy épp új hobbit meddig fogjuk folytatni (1 nap, 1 év, vagy egy életen át).
 
+&nbsp;&nbsp;&nbsp;&nbsp;A lényege az, hogy ezeknek egy része biztosan felesleges vásárlás volt, ami nem garancia arra, hogy ez csak 1 alkalommal történt meg.
+Lehetséges, hogy valaki egyszer elkezdte, aztán már nem tudott leállni vele és függővé vált.
+Sokan szeretnének változtatni ezen, és különböző módszerekkel visszafogni a felesleges vásárlásokat.
+Léteznek már segítségek a problémához, itt gondolhatunk például visszafogási módszerekre
+(akár fizikai, akár digitális megoldással) vagy nyomonkövetési rendszerekre
+(szintén lehet akár papír alapú is, jegyzettömb esetleg valamilyen szoftver).
+
+&nbsp;&nbsp;&nbsp;&nbsp;A függőknél sajnos túl nagy szintet is ölthet a probléma, amivel az életminőségét is nagyban károsíthatja,
+vagy rosszabb esetben akár a családjáét is.
+Ez adott motivációt nekünk ahhoz, hogy aki függő, de szeretne segíteni magán, annak könnyíthessünk a dolgán.
+Viszont ez az alkalmazás szerintünk hasznos lehet normál felhasználó számára is,
+aki csak szimplán egyszerű és gyors módon szeretné követni az egyenlegét (tehát nem kell belépni külön a bank oldalára, ami plusz idő és pénz).
+
 
 ## 3. Jelenlegi üzleti folyamatok
 
