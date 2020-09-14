@@ -71,9 +71,10 @@ Emiatt pedig nagy problémája, hogy hosszú távon nem tudja lekövetni a kiad�
 
 ## 6. Követelménylista
 
-- Ezzel az alkalmazással, mindig naprakész lehet a felhasználó az általa kívánt információkkal, és pontosan követni tudja a kiadásait és bevételeit.
-- Mivel egyszerű hétköznapi felhasználóként szeretné használni, ezért elvárás az egyszerűség, könnyű átláthatóság/kezelés illetve a platformfüggetlenség.
-- Az adattárolás saját adatbázisban működjön.
-- A pénznem a felhasználó által használt legyen (ergo forint).
-- Statisztikai kimutatás a költekezésekről.
-- Érdemes egy későbbi esetleges funkcióbővítési kéréssel számolni.
+K01. A felhasználó nyomon követheti bevételeit és kiadásait (mindkét esetben a felhasználó bejegyezheti a rendszerben egyenlege változásait).
+K02. Legyen egyszerűen kezelhető és átlátható.
+K03. Adattárolás saját adatbázisban működjön.
+K04. A felhasznált pénznem legyen forint.
+K05. Legyenek elérhetőek statisztikai kimutatások a felhasználó költekezéséről havi és heti bontásban.
+K06. Minden egyes pénzmozgáshoz a felhasználó opcionálisan fűzhessen megjegyzést (pl hogy éppen mire költötte az adott összeget).
+
