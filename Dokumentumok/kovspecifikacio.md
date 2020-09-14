@@ -71,10 +71,10 @@ Emiatt pedig nagy problémája, hogy hosszú távon nem tudja lekövetni a kiad�
 
 ## 6. Követelménylista
 
-K01. A felhasználó nyomon követheti bevételeit és kiadásait (mindkét esetben a felhasználó bejegyezheti a rendszerben egyenlege változásait).
-K02. Legyen egyszerűen kezelhető és átlátható.
-K03. Adattárolás saját adatbázisban működjön.
-K04. A felhasznált pénznem legyen forint.
-K05. Legyenek elérhetőek statisztikai kimutatások a felhasználó költekezéséről havi és heti bontásban.
-K06. Minden egyes pénzmozgáshoz a felhasználó opcionálisan fűzhessen megjegyzést (pl hogy éppen mire költötte az adott összeget).
+- K01. A felhasználó nyomon követheti bevételeit és kiadásait (mindkét esetben a felhasználó bejegyezheti a rendszerben egyenlege változásait).
+- K02. Legyen egyszerűen kezelhető és átlátható.
+- K03. Adattárolás saját adatbázisban működjön.
+- K04. A felhasznált pénznem legyen forint.
+- K05. Legyenek elérhetőek statisztikai kimutatások a felhasználó költekezéséről havi és heti bontásban.
+- K06. Minden egyes pénzmozgáshoz a felhasználó opcionálisan fűzhessen megjegyzést (pl hogy éppen mire költötte az adott összeget).
 
