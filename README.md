@@ -1,5 +1,5 @@
 # Budget_helper
-Ez a repository tartalmazza az UFO :alien: csapat projektjét tartalmazza.
+Ez a repository tartalmazza az UFO :alien: csapat projektjét.
 
 A verzió követést itt githubon, míg a projekt menedzselést Trello-n(https://trello.com/b/sUzcYHnm/project-schedule) fogjuk végezni.
 
