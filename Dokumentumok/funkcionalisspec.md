@@ -53,7 +53,11 @@ Itt az Add gombra kattintva felugrik majd egy újabb ablak, amelyben képesek va
 
 Ez az alábbi képhez hasonlóan fog kinézni(A programunkban a magyar nyelv majd lesz preferált):
 
+![Add Stage raw](Resources/AddStage.png)
 
+- Amount: beírhatjuk az összeget.
+- Description: ez tartalmazza a leírást, tehát azt, hogy az adott összeg felvételét milyen gazdasági esemény váltotta ki.
+- Comment: Itt mehetünk bele a részletekben. Lényegében a descriptionban leírtakat fejtsük ki.
 
 ## Fogalom szótár
 
