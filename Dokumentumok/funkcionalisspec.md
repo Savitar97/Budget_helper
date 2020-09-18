@@ -84,6 +84,7 @@ De térjünk is a lényegre. Mi az, amit Ufó Peti megtehet az alkalmazásban?
 - Megadhat minden egyes tranzakciót elemenként.
 - Az egyes tranzakciókhoz társíthat leírást, illetve megjegyzést.
 - A megjegyzés hozzáadása opcionális, tehát nem muszáj hozzá tenni.
+- A bejegyzések ID-kel azonosíthatóak.
 - A bejegyzésekhez a pontos dátumot is hozzáadhatja a könnyebb nyomonkövetés érdekében.
 - A bejegyzéseket utólag is módosíthatja.
 - Nem csak új bejegyzést tud létrehozni, de törölhet is.
