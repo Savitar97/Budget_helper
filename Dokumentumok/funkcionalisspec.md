@@ -59,6 +59,18 @@ Ez az alábbi képhez hasonlóan fog kinézni(A programunkban a magyar nyelv maj
 - Description: ez tartalmazza a leírást, tehát azt, hogy az adott összeg felvételét milyen gazdasági esemény váltotta ki.
 - Comment: Itt mehetünk bele a részletekben. Lényegében a descriptionban leírtakat fejtsük ki.
 
+A modify: itt leszünk képesek majd módosítani egy megadott mezőt az adatbázisból.
+
+Remove: ezzel leszünk képesek törölni egy megadott mezőt az adatbázisunkból.
+
+És a programunk utolsó funkciója a Statistics gombbal érhető majd el, amely a diagrammos megjelenítést teszi majd lehetővé.
+
+Ez a következőhöz hasonlóképpen fog kinézni:
+
+![Statistics Stage raw](Resources/StatisticsStage.png)
+
+
+Itt majd a back gomb használatával tudunk vissza navigálni az applikációs ablakra.
 ## Fogalom szótár
 
 
