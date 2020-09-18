@@ -37,6 +37,17 @@ adott gombhoz.
 
 ## [Követelmény lista](kovspecifikacio.md#6-követelménylista)
 
+## Képernyőtervek
+
+&nbsp;&nbsp;&nbsp;&nbsp; A program indításakor a következő látvány fog elénk tárulni:
+
+![Login Stage raw](Resources/LoginStage.png)
+
+A felhasználó itt beírja a felhasználó nevét majd a start gombra kattintva indul el az applikáció.
+
+![Login Stage raw](Resources/AppStage.png)
+
+
 ## Fogalom szótár
 
 
