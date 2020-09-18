@@ -45,7 +45,14 @@ adott gombhoz.
 
 A felhasználó itt beírja a felhasználó nevét majd a start gombra kattintva indul el az applikáció.
 
-![Login Stage raw](Resources/AppStage.png)
+![App Stage raw](Resources/AppStage.png)
+
+Az applikáció indítását követően egy ehhez hasonló felület fog minket fogadni.
+
+Itt az Add gombra kattintva felugrik majd egy újabb ablak, amelyben képesek vagyunk új mezőt felvenni az adatbázisunkba.
+
+Ez az alábbi képhez hasonlóan fog kinézni(A programunkban a magyar nyelv majd lesz preferált):
+
 
 
 ## Fogalom szótár
