@@ -71,6 +71,25 @@ Ez a következőhöz hasonlóképpen fog kinézni:
 
 
 Itt majd a back gomb használatával tudunk vissza navigálni az applikációs ablakra.
+
+
+## Használati esetek
+
+&nbsp;&nbsp;&nbsp;&nbsp;A használati esetekkel demonstrálhatjuk a felhasználó, és a rendszer között végbemenő folyamatokat. \
+Ez megfelelő módja annak, hogy a felhasználó tudja, mit is kellene kezdenie ezzel a programmal, vagyis hogyan kezelheti azt. \
+Mivel nem szeretnénk a megrendelőt felesleges plusz információval terhelni (elég, ha csak az itt leírtakkal foglalkozik), amit egyáltalán nem biztos, hogy ért, ezért az UML diagrammot inkább a rendszertervhez csatoljuk. \
+De térjünk is a lényegre. Mi az, amit Ufó Peti megtehet az alkalmazásban?
+- Kezdéskor megadhat magának egy nevet (bármilyen nevet). Ezen a néven fogja tudni visszakövetni az előzményeit.
+- Megadhatja a havi bevételének összegét.
+- Megadhat minden egyes tranzakciót elemenként.
+- Az egyes tranzakciókhoz társíthat leírást, illetve megjegyzést.
+- A megjegyzés hozzáadása opcionális, tehát nem muszáj hozzá tenni.
+- A bejegyzésekhez a pontos dátumot is hozzáadhatja a könnyebb nyomonkövetés érdekében.
+- A bejegyzéseket utólag is módosíthatja.
+- Nem csak új bejegyzést tud létrehozni, de törölhet is.
+- Amennyiben szeretné, a kiadásai és a bevételei arányait statisztikai formában megtekintheti.
+
+
 ## Fogalom szótár
 
 
