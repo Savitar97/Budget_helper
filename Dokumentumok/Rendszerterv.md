@@ -44,6 +44,8 @@ A szoftver JavaFX platformon fog készülni, tehát egy desktop alkalmazásról 
 ### Képernyőtervek
 
 A kezdetleges képernyőtervre vonatkozó javaslatok a következőek:
+- Bejelentkezés:
+
 ![BejelentkezésiStage](/Dokumentumok/Resources/BejelentkezesStage.jpg)
 
 A felhasználó egy név megadásával léphet tovább az applikációban.
@@ -51,3 +53,20 @@ A felhasználó egy név megadásával léphet tovább az applikációban.
 A felvett bevételek és kiadások felvételénél ez a név fog megjelenni.
 
 A tovább gombra kattintva navigálhatunk át az applikációra.
+
+- Applikáció:
+
+![ApplikációStage](/Dokumentumok/Resources/ApplikacioStage.jpg)
+
+Az applikációra átnavigálva egy ehhez hasonló ablak fog minket fogadni.
+
+A felhasználónak itt van lehetősége bevételek és kiadások felvételéhez, módosításához, törléséhez.
+
+Illetve itt láthassa az eddigi bevételeket és kiadásokat.
+
+Szintén innen lesz képes elérni a statisztikák menüpontot, amelyen az eddigi bevételeket és kiadásokat fogja látni napokra lebontva.
+
+Illetve visszalépni a bejelentkező ablakra is.
+
+
+
