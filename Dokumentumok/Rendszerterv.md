@@ -1,4 +1,4 @@
-# Budget-heplper projekt
+# Budget-helper projekt
 
 ## A rendszer céljai és nem céljai
 
@@ -22,3 +22,7 @@ A projekten négy programtervező informatikus hallgató dolgozik, ábécé sorr
 - A projekt kezdete: 2020. szeptember 7.
 - A projekt határideje: 2020. szeptember 28.
 - A dokumentáció elkészültének határideje: 2020 szeptember 21.
+
+## Fizikai környezet
+
+A szoftver JavaFX platformon fog készülni, tehát egy desktop alkalmazásról van szó, amely teljesen platformfüggetlen és nem kapcsolódik hálózathoz sem. A használt fejlesztői környezet az Intellij IDEA, az alkalmazás futtatásához Java 13-as verzió szükséges. A szoftver nem fog tartalmazni vásárolt szoftver komponenseket, teljesen open-source forrásokat használunk.
