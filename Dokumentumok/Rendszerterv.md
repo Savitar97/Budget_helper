@@ -29,6 +29,11 @@ A szoftver JavaFX platformon fog készülni, tehát egy desktop alkalmazásról 
 
 ## Követelmények
 
+
+## Üzleti folyamatok modellje:
+
+![UMLDiagramm](/Dokumentumok/Resources/uml.jpg)
+
 ### Funkcionális követelmények
 - A rendszerben fontos a bevitt adatok pontos tárolása. Különben hamis adatokat juttatnánk a felhasználóhoz.
 - Minden input legyen lekezelve. Ha valamelyik művelet nem sikerül arról tájékoztassuk a felhasználót. Egyébként az előző pontot szegjük meg.
