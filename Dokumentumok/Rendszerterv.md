@@ -27,12 +27,29 @@ A projekten négy programtervező informatikus hallgató dolgozik, ábécé sorr
 
 A szoftver JavaFX platformon fog készülni, tehát egy desktop alkalmazásról van szó, amely teljesen platformfüggetlen és nem kapcsolódik hálózathoz sem. A használt fejlesztői környezet az Intellij IDEA, az alkalmazás futtatásához Java 13-as verzió szükséges. A szoftver nem fog tartalmazni vásárolt szoftver komponenseket, teljesen open-source forrásokat használunk.
 
-## Követelmények
-
-
 ## Üzleti folyamatok modellje:
 
 ![UMLDiagramm](/Dokumentumok/Resources/uml.jpg)
+
+### Megvalósítandó üzleti folyamatok:
+- Megadható legyen kezdéskor a felhasználónév.
+- Megadhatóak legyenek a különböző források/bevételek összegei.
+- Megadhatóak legyenek a kiadások.
+- Az egyes kiadások utólag módosíthatóak és törölhetőek legyenek.
+- A tranzakciók adatai és a felhasználónév adatbázisban történő tárolása.
+- A tranzakciókhoz társítható legyen egy megnevezés.
+- Opcionálisan hozzá lehessen adni az egyes tranzakciókhoz megjegyzést.
+- A kiadás/bevétel arányról megjeleníthető legyen egy statisztika.
+
+### Üzleti szereplők:
+- Azok a személyek/felhasználók, akik használják a programot.
+- Ez a mi esetünkben Ufó Petit jelenti.
+
+### Üzleti Entitás(ok):
+- User: egy objektumként lesz jelölve a felhasználó.
+- Mivel Ufó Peti kérésére készítjük az applikációt, ezért itt ő lesz az objektum.
+
+## Követelmények
 
 ### Funkcionális követelmények
 - A rendszerben fontos a bevitt adatok pontos tárolása. Különben hamis adatokat juttatnánk a felhasználóhoz.
