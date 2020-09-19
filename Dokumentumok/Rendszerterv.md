@@ -38,3 +38,16 @@ A szoftver JavaFX platformon fog készülni, tehát egy desktop alkalmazásról 
 
 ### Jogi követelmények
 - Az adatokat a felhasználó gépén tároljuk, így az adatai biztonságáért a felelősség Őt terheli.
+
+## Funkcionális tervek
+
+### Képernyőtervek
+
+A kezdetleges képernyőtervre vonatkozó javaslatok a következőek:
+![BejelentkezésiStage](/Dokumentumok/Resources/BejelentkezesStage.jpg)
+
+A felhasználó egy név megadásával léphet tovább az applikációban.
+
+A felvett bevételek és kiadások felvételénél ez a név fog megjelenni.
+
+A tovább gombra kattintva navigálhatunk át az applikációra.
