@@ -68,5 +68,11 @@ Szintén innen lesz képes elérni a statisztikák menüpontot, amelyen az eddig
 
 Illetve visszalépni a bejelentkező ablakra is.
 
+- Hozzáad:
 
+![HozzáadStage](/Dokumentumok/Resources/HozzaadStage.jpg)
+
+A hozzáadásnál a felhasználó köteles lesz megadni összeget illetve a leírást.
+
+Emellett szabadon megadhat hozzá további megjegyzéseket ha akar.
 
