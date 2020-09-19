@@ -101,6 +101,10 @@ De térjünk is a lényegre. Mi az, amit Ufó Peti megtehet az alkalmazásban?
 - Open-source: nyílt forráskódú szoftver, amely szabadon használható, másolható és fejleszthető.
 - JavaFX: a Java GUI könyvtára, egy olyan keretrendszer, amely segítségével desktop applikációkat lehet létrehozni.
 - GUI (grafikus felhasználói felület): lehetővé teszi, hogy egy felhasználó könnyen, intuitívan használjon egy programot.
-
+- ID: mozaikszó, angolul az identification, magyarul az azonosító rövidítése.
+- Budget: jelentése költségvetés.
+- Preferált: elsőbbséget élvez valami.
+- UML diagramm: Unified Modeling Language rövidítése, és ez egy szabványos, általános célű modellezési nyelv.
+- Tranzakció: üzleti tevékenység, jelen esetben a pénzmozgatás jellemzésére szolgál.
 
 
