@@ -91,8 +91,16 @@ De térjünk is a lényegre. Mi az, amit Ufó Peti megtehet az alkalmazásban?
 - Amennyiben szeretné, a kiadásai és a bevételei arányait statisztikai formában megtekintheti.
 
 
-## Fogalom szótár
-
+## Fogalomszótár
+- Java: OOP programozási nyelv, platformfüggetlen.
+- OOP: objektumorientált programozási paradigma, amelyben fő szerepet játszik az objektum. 
+- Objektum: egy valós világbeli entitás absztrakciója, amelynek tulajdonságait attribútumoknak, műveleteit pedig metódusoknak hívjuk.
+- Platfromfüggetlenség: operációs rendszertől független.
+- H2 adatbázis: Java SQL open-source adatbázis.
+- SQL: strukturált adatbázis lekérdező nyelv.
+- Open-source: nyílt forráskódú szoftver, amely szabadon használható, másolható és fejleszthető.
+- JavaFX: a Java GUI könyvtára, egy olyan keretrendszer, amely segítségével desktop applikációkat lehet létrehozni.
+- GUI (grafikus felhasználói felület): lehetővé teszi, hogy egy felhasználó könnyen, intuitívan használjon egy programot.
 
 
 
