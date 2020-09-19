@@ -64,7 +64,7 @@ A felhasználónak itt van lehetősége bevételek és kiadások felvételéhez,
 
 Illetve itt láthassa az eddigi bevételeket és kiadásokat.
 
-Szintén innen lesz képes elérni a statisztikák menüpontot, amelyen az eddigi bevételeket és kiadásokat fogja látni napokra lebontva.
+Szintén innen lesz képes elérni a statisztikák menüpontot, amelyen az eddigi bevételeket és kiadásokat fogja látni.
 
 Illetve visszalépni a bejelentkező ablakra is.
 
@@ -76,3 +76,8 @@ A hozzáadásnál a felhasználó köteles lesz megadni összeget illetve a leí
 
 Emellett szabadon megadhat hozzá további megjegyzéseket ha akar.
 
+- Statisztikák:
+
+![StatisztikákStage](/Dokumentumok/Resources/StatisztikakStage.jpg)
+
+Utolsó menüpontunkhoz érkeztünk ezek a statisztikák. De nyugodjunk meg nem kell matekoznunk. Ugyanis a programunk magától lefogja generálni a kellő ábrákat.
