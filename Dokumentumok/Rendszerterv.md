@@ -47,7 +47,7 @@ A szoftver JavaFX platformon fog készülni, tehát egy desktop alkalmazásról 
 
 ### Üzleti Entitás(ok):
 - User: egy objektumként lesz jelölve a felhasználó.
-- Mivel Ufó Peti kérésére készítjük az applikációt, ezért itt ő lesz az objektum.
+- Mivel Ufó Peti kérésére készítjük az applikációt, ezért itt Ő lesz az objektum.
 
 ## Követelmények
 
@@ -57,6 +57,10 @@ A szoftver JavaFX platformon fog készülni, tehát egy desktop alkalmazásról 
 
 ### Nem funkcionális követelmények
 - A grafikus felületnek letisztultnak könnyen kezelhetőnek kell lennie. A használata ne igényeljen informatikában jártas személyt.
+- Csak azok az adatok kerüljenek megjelenítésre, amelyekre ténylegesen szükség is van.
+- Mindig az aktuális információk megjelenítése.
+- Ha már töröltek egy bejegyzést, akkor az azonnal tűnjön el.
+- A módosított bejegyzések módosításai rögtön legyenek elérhetőek.
 
 ### Jogi követelmények
 - Az adatokat a felhasználó gépén tároljuk, így az adatai biztonságáért a felelősség Őt terheli.
