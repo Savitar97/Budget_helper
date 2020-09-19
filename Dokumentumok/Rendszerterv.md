@@ -64,6 +64,7 @@ A szoftver JavaFX platformon fog készülni, tehát egy desktop alkalmazásról 
 
 ### Jogi követelmények
 - Az adatokat a felhasználó gépén tároljuk, így az adatai biztonságáért a felelősség Őt terheli.
+- A programban felhasznált illusztrációk vagy saját készítésűek, vagy No Copyright licenccel ellátottak.
 
 ## Funkcionális tervek
 
