@@ -120,3 +120,31 @@ Emellett szabadon megadhat hozzá további megjegyzéseket ha akar.
 ![StatisztikákStage](/Dokumentumok/Resources/StatisztikakStage.jpg)
 
 Utolsó menüpontunkhoz érkeztünk ezek a statisztikák. De nyugodjunk meg nem kell matekoznunk. Ugyanis a programunk magától lefogja generálni a kellő ábrákat.
+
+## Forgatókönyvek
+
+-Minden további funkcióhoz a felhasználó először elindítja az alkalmazást és az általa megadott felhasználó névvel bejelentkezik.
+
+### Cél: Bevétel és kiadás felvétele
+
+- Az alkalmazás menüjének tekinthető fő ablakba érkezve a bal oldali menüben a 'hozzáad' gombra kattint.
+- A felugró ablakban az 'Összeg'-hez beírja a bevétel vagy kiadás értékét, ezt követően a 'Leírás'-hoz megadja hogy honnan, vagy mire kapott illetve költött pénzt.
+- Opcionálisan hozzá adhat egy emlékeztetőt vagy kommentet a 'Megjegyzés' pontban, ami a táblázat szerű fő ablakban segíti a tájékozódást.
+- A 'Hozzáad' gombra kattintva a felugró ablak bezárul és az összeg megjelenik a táblázatban.
+
+### Cél: A táblázatba felvett elem módosítása vagy törlése
+
+- A módosítani vagy törölni kívánt bejegyzés kijelölése.
+- A táblázat bal oldalán a 'Módosít' gombra kattintva újra felugrik a hozzáadásnál megnyíló ablak, melyben módosíthatók a bejegyzés elemei.
+- A táblázat bal oldalán a 'Töröl' gombra kattintba egy figyelmeztetés ugrik fel, ahol a folyamat megerősíthető vagy visszavonható.
+
+### Cél: Statisztikák megjelenítése
+
+- A táblázat bal alsó sarkában a kilépés gomb felett található a statisztikák megjelenítésére szolgáló ikonnal ellátott gomb.
+- A gombot megnyomva felugrik a 'Statisztikák' ablak, amelyen a felhasználó látni fogja a költési szokásaira vonatkozó fontosabb ábrákat és diagramokat.
+
+### Cél: Változtatások mentése, program bezárása
+
+- A felhasználó a bal alsó sarokban található 'Exit' gombra kattint.
+- Egy felugró ablakban megerősítheti vagy elvetheti a használat közben bevitt értékeket, módosításokat, illetve visszatérhet az alkalmazásba.
+- A módosítások mentése vagy elvetése után a program bezárul.
