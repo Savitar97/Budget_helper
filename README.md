@@ -7,3 +7,4 @@ A verzió követést itt githubon, míg a projekt menedzselést Trello-n(https:/
 - Tóth Attila: https://github.com/Savitar97
 - Kun-Limberger Anett: https://github.com/kunanett
 - Ádám Petra: https://github.com/petradam99
+- Orosz Máté https://github.com/ormate
