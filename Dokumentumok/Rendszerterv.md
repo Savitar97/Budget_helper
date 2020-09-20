@@ -27,6 +27,9 @@ A projekten négy programtervező informatikus hallgató dolgozik, ábécé sorr
 
 A szoftver JavaFX platformon fog készülni, tehát egy desktop alkalmazásról van szó, amely teljesen platformfüggetlen és nem kapcsolódik hálózathoz sem. A használt fejlesztői környezet az Intellij IDEA, az alkalmazás futtatásához Java 13-as verzió szükséges. A szoftver nem fog tartalmazni vásárolt szoftver komponenseket, teljesen open-source forrásokat használunk.
 
+## Adatbázis terv
+![Adatbázis modell](/Dokumentumok/Resources/db.png)
+
 ## Üzleti folyamatok modellje:
 
 ![UMLDiagramm](/Dokumentumok/Resources/uml.jpg)
