@@ -100,6 +100,7 @@ Itt majd a back gomb használatával tudunk vissza navigálni az applikációs a
 - Egy felugró ablakban megerősítheti vagy elvetheti a használat közben bevitt értékeket, módosításokat, illetve visszatérhet az alkalmazásba.
 - A módosítások mentése vagy elvetése után a program bezárul.
 
+
 ## Használati esetek
 
 &nbsp;&nbsp;&nbsp;&nbsp;A használati esetekkel demonstrálhatjuk a felhasználó, és a rendszer között végbemenő folyamatokat. \
