@@ -30,6 +30,15 @@ A szoftver JavaFX platformon fog készülni, tehát egy desktop alkalmazásról 
 ## Adatbázis terv
 ![Adatbázis modell](/Dokumentumok/Resources/db.png)
 
+Ebben a táblában lesznek tárolva a felhasználó kiadásai és bevételei.
+
+### Leírás:
+- id: primary key, automatikusan generált int érték
+- date: a felhasználó által bevitt bejegyzések dátuma
+- amount: a bejegyzéshez tartozó pénzösszeg, int érték, amely pozitív előjelű, ha bevételről van szó és negatív, ha kiadásról
+- description: varchar2 típusú leírás, amelyben a felhasználó pontosíthatja, hogy mire költötte a pénzt
+- comment: varchar2 opcionális megjegyzés, ha további magyarázatot szeretne bevinni a felhasználó
+
 ## Üzleti folyamatok modellje:
 
 ![UMLDiagramm](/Dokumentumok/Resources/uml.jpg)
