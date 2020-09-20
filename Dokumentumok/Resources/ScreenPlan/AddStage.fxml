@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Scene?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.stage.Stage?>
+
+<Stage xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+    <scene>
+        <Scene>
+            <AnchorPane prefHeight="400.0" prefWidth="500.0" stylesheets="@AnchorPane.css">
+            <children>
+               <Label id="Login" layoutX="139.0" layoutY="14.0" stylesheets="@login.css" text="Hozzáad" textFill="#47db14" />
+               <Label id="felhasznalo" layoutX="64.0" layoutY="132.0" stylesheets="@login.css" text="Összeg:" />
+               <TextField layoutX="179.0" layoutY="131.0" />
+               <Label id="felhasznalo" layoutX="80.0" layoutY="200.0" stylesheets="@login.css" text="Leírás:" />
+               <TextField layoutX="179.0" layoutY="199.0" />
+               <Label id="felhasznalo" layoutX="10.0" layoutY="272.0" stylesheets="@login.css" text="Megjegyzés:" />
+               <TextField layoutX="179.0" layoutY="271.0" />
+               <Button id="green" layoutX="279.0" layoutY="334.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="103.0" stylesheets="@button.css" text="Hozzáad" />
+               <Button id="red" layoutX="139.0" layoutY="334.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="103.0" stylesheets="@button.css" text="Vissza" />
+            </children></AnchorPane>
+        </Scene>
+    </scene>
+</Stage>
