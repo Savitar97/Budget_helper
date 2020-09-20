@@ -72,6 +72,34 @@ Ez a következőhöz hasonlóképpen fog kinézni:
 
 Itt majd a back gomb használatával tudunk vissza navigálni az applikációs ablakra.
 
+## Forgatókönyvek
+
+-Minden további funkcióhoz a felhasználó először elindítja az alkalmazást és az általa megadott felhasználó névvel bejelentkezik.
+
+### Cél: Bevétel és kiadás felvétele
+
+- Az alkalmazás menüjének tekinthető fő ablakba érkezve a bal oldali menüben a 'hozzáad' gombra kattint.
+- A felugró ablakban az 'Összeg'-hez beírja a bevétel vagy kiadás értékét, ezt követően a 'Leírás'-hoz megadja hogy honnan, vagy mire kapott illetve költött pénzt.
+- Opcionálisan hozzá adhat egy emlékeztetőt vagy kommentet a 'Megjegyzés' pontban, ami a táblázat szerű fő ablakban segíti a tájékozódást.
+- A 'Hozzáad' gombra kattintva a felugró ablak bezárul és az összeg megjelenik a táblázatban.
+
+### Cél: A táblázatba felvett elem módosítása vagy törlése
+
+- A módosítani vagy törölni kívánt bejegyzés kijelölése.
+- A táblázat bal oldalán a 'Módosít' gombra kattintva újra felugrik a hozzáadásnál megnyíló ablak, melyben módosíthatók a bejegyzés elemei.
+- A táblázat bal oldalán a 'Töröl' gombra kattintba egy figyelmeztetés ugrik fel, ahol a folyamat megerősíthető vagy visszavonható.
+
+### Cél: Statisztikák megjelenítése
+
+- A táblázat bal alsó sarkában a kilépés gomb felett található a statisztikák megjelenítésére szolgáló ikonnal ellátott gomb.
+- A gombot megnyomva felugrik a 'Statisztikák' ablak, amelyen a felhasználó látni fogja a költési szokásaira vonatkozó fontosabb ábrákat és diagramokat.
+
+### Cél: Változtatások mentése, program bezárása
+
+- A felhasználó a bal alsó sarokban található 'Exit' gombra kattint.
+- Egy felugró ablakban megerősítheti vagy elvetheti a használat közben bevitt értékeket, módosításokat, illetve visszatérhet az alkalmazásba.
+- A módosítások mentése vagy elvetése után a program bezárul.
+
 
 ## Használati esetek
 
@@ -101,6 +129,10 @@ De térjünk is a lényegre. Mi az, amit Ufó Peti megtehet az alkalmazásban?
 - Open-source: nyílt forráskódú szoftver, amely szabadon használható, másolható és fejleszthető.
 - JavaFX: a Java GUI könyvtára, egy olyan keretrendszer, amely segítségével desktop applikációkat lehet létrehozni.
 - GUI (grafikus felhasználói felület): lehetővé teszi, hogy egy felhasználó könnyen, intuitívan használjon egy programot.
-
+- ID: mozaikszó, angolul az identification, magyarul az azonosító rövidítése.
+- Budget: jelentése költségvetés.
+- Preferált: elsőbbséget élvez valami.
+- UML diagramm: Unified Modeling Language rövidítése, és ez egy szabványos, általános célű modellezési nyelv.
+- Tranzakció: üzleti tevékenység, jelen esetben a pénzmozgatás jellemzésére szolgál.
 
 
