@@ -100,6 +100,16 @@ Itt majd a back gomb használatával tudunk vissza navigálni az applikációs a
 - Egy felugró ablakban megerősítheti vagy elvetheti a használat közben bevitt értékeket, módosításokat, illetve visszatérhet az alkalmazásba.
 - A módosítások mentése vagy elvetése után a program bezárul.
 
+## Megfeleltetés
+
+A követelményspecifikációban megfogalmazott követelménylista alapján a következő igényelt funkciókat tartalmazza az alkalmazás.
+
+- K01: A 'Hozzáad' funkcióval feljegyezhetők a bevételek és kiadások listája 
+- K02: A táblázat szerű fő ablak, egyszerűen átlátható, a funkciók egyértelmű ikonokkal és gombokkal elérhetők
+- K03: A program képes az adatokat a felhasználó eszközén tárolni
+- K04: A felhasznált pénznem forint
+- K05: A 'Statisztikák' menüben elérhetőek a heti és havi bontásban elkülönített gráfok és ábrák
+- K06: A 'Hozzáad' funkcióval a felhasználó írhat bármilyen megjegyzést
 
 ## Használati esetek
 

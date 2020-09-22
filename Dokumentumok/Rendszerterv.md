@@ -66,6 +66,7 @@ Ebben a táblában lesznek tárolva a felhasználó kiadásai és bevételei.
 ### Funkcionális követelmények
 - A rendszerben fontos a bevitt adatok pontos tárolása. Különben hamis adatokat juttatnánk a felhasználóhoz.
 - Minden input legyen lekezelve. Ha valamelyik művelet nem sikerül arról tájékoztassuk a felhasználót. Egyébként az előző pontot szegjük meg.
+- Felhasználóbarátabb élményt nyújtson.
 
 ### Nem funkcionális követelmények
 - A grafikus felületnek letisztultnak könnyen kezelhetőnek kell lennie. A használata ne igényeljen informatikában jártas személyt.
@@ -120,3 +121,14 @@ Emellett szabadon megadhat hozzá további megjegyzéseket ha akar.
 ![StatisztikákStage](/Dokumentumok/Resources/StatisztikakStage.jpg)
 
 Utolsó menüpontunkhoz érkeztünk ezek a statisztikák. De nyugodjunk meg nem kell matekoznunk. Ugyanis a programunk magától lefogja generálni a kellő ábrákat.
+
+## Implementációs terv:
+
+![Implementációsterv](/Dokumentumok/Resources/Impterv.png)
+
+A programban perzisztencia osztályokat használunk. Ebben a Hybernatere támaszkodunk illetve a JPA DAO-ra. Egy darab entitás osztályt fogunk használni az adatok tárolására.
+
+A main osztály lesz a felelős a program indításáért.
+
+A controllerben fogjuk lekezelni a view és a modell közötti kapcsolatokat. A view a grafikus felület lesz vagy másnéven a GUI. Ezek fxml állományokként találhatóak meg illetve CSS-el vannak támogatva. A modell az adatbázissal fogja tartani a kapcsolatot.
+
