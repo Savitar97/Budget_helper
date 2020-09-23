@@ -14,4 +14,9 @@ import javafx.stage.Stage;
 import java.io.IOException;
 
 public class Launch {
+  
+    @FXML
+    public TextField usernameTextField;
+    @FXML
+    public Label errorLabel;
 }
