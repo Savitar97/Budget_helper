@@ -35,7 +35,25 @@
 
                 </children>
             </Pane>
-            
+            <Pane layoutX="117.0" prefHeight="98.0" prefWidth="911.0" style="-fx-background-color: #172333;">
+                <children>
+                    <Label fx:id="userNameLabel" layoutX="94.0" layoutY="16.0" prefHeight="66.0" prefWidth="329.0" text="Felhasználónév" textFill="#42cd47">
+                        <font>
+                            <Font name="Berlin Sans FB" size="32.0" />
+                        </font>
+                    </Label>
+                </children>
+            </Pane>
+            <TableView fx:id="dataTable" layoutX="120.0" layoutY="99.0" prefHeight="601.0" prefWidth="906.0">
+                <columns>
+                    <TableColumn fx:id="id" prefWidth="71.99996948242188" text="Id" />
+                    <TableColumn fx:id="username" minWidth="0.0" prefWidth="180.80003356933594" text="Név" />
+                    <TableColumn fx:id="created" prefWidth="175.20001220703125" text="Dátum" />
+                    <TableColumn fx:id="amount" prefWidth="170.4000244140625" text="Összeg" />
+                    <TableColumn fx:id="description" prefWidth="151.20001220703125" text="Leírás" />
+                    <TableColumn fx:id="comment" prefWidth="152.80002441406248" text="Megjegyzés" />
+                </columns>
+            </TableView>
         </children>
     </AnchorPane>
 </Pane>
