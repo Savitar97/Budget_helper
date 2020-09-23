@@ -7,4 +7,35 @@
 
 <Pane xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Application">
 
+    <AnchorPane prefHeight="768.0" prefWidth="1024.0">
+        <children>
+            <Pane prefHeight="770.0" prefWidth="120.0" style="-fx-background-color: #172333;">
+                <children>
+                    <Button id="purple" layoutX="20.0" layoutY="304.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="80.0" stylesheets="@css/button.css" text="Módosít" />
+                    <Button id="green" layoutX="20.0" layoutY="194.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="80.0" stylesheets="@css/button.css" text="Hozzáad" />
+                    <Button id="red" layoutX="20.0" layoutY="250.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="80.0" stylesheets="@css/button.css" text="Töröl" />
+                    <Button id="exit" layoutX="33.0" layoutY="705.0" mnemonicParsing="false" onMouseClicked="#returnLogin" prefHeight="50.0" prefWidth="50.0" styleClass="special" stylesheets="@css/button.css">
+                        <graphic>
+                            <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                                <image>
+                                    <Image url="@../images/exit.png" />
+                                </image>
+                            </ImageView>
+                        </graphic>
+                    </Button>
+                    <Button layoutX="32.0" layoutY="620.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="special" stylesheets="@css/button.css">
+                        <graphic>
+                            <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                                <image>
+                                    <Image url="@../images/statistics.png" />
+                                </image>
+                            </ImageView>
+                        </graphic>
+                    </Button>
+
+                </children>
+            </Pane>
+            
+        </children>
+    </AnchorPane>
 </Pane>
