@@ -6,6 +6,17 @@
 
 <Pane stylesheets="@css/AnchorPane.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Launch">
     <AnchorPane prefHeight="500.0" prefWidth="500.0">
-  
+         <children>
+            <Label id="Login" layoutX="59.0" layoutY="62.0" prefHeight="112.0" prefWidth="382.0" stylesheets="@css/login.css" text="Bejelentkezés" textFill="#fd0000">
+                <effect>
+                    <DropShadow blurType="GAUSSIAN" color="#712828" />
+                </effect>
+            </Label>
+            <Button layoutX="211.0" layoutY="391.0" mnemonicParsing="false" onMouseClicked="#runAction" prefHeight="41.0" prefWidth="78.0" styleClass="special" stylesheets="@css/button.css" text="Tovább" />
+            <Label id="felhasznalo" layoutX="15.0" layoutY="243.0" prefHeight="43.0" prefWidth="234.0" stylesheets="@css/login.css" text="Felhasználó név:" textFill="#dd0a0a" />
+            <TextField fx:id="usernameTextField" layoutX="249.0" layoutY="249.0" prefHeight="31.0" prefWidth="161.0" />
+            <Label fx:id="errorLabel" layoutX="250.0" layoutY="286.0" textFill="#e10101" />
+        </children>
+
     </AnchorPane>
 </Pane>
