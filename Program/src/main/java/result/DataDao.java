@@ -20,4 +20,9 @@ public class DataDao extends GenericJPADao<DataModel> {
         }
         return instance;
     }
+    
+    public List<DataModel> findAll() {
+        return entityManager.createQuery("SELECT r FROM DataModel r order by r.created DESC", DataModel.class)
+                .getResultList();
+    }
 }
