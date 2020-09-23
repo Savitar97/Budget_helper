@@ -19,4 +19,19 @@ public class Launch {
     public TextField usernameTextField;
     @FXML
     public Label errorLabel;
+  
+    public void runAction(MouseEvent mouseEvent) throws IOException {
+
+        if (usernameTextField.getText().isEmpty()) {
+            errorLabel.setText("* Username is empty!");
+        }
+        else {
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/fxml/application.fxml"));
+            Parent root = fxmlLoader.load();
+            fxmlLoader.<Application>getController().setUsername(usernameTextField.getText());
+            Stage stage = (Stage) ((Node) mouseEvent.getSource()).getScene().getWindow();
+            stage.setScene(new Scene(root));
+            stage.show();
+        }
+    }
 }
