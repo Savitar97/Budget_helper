@@ -20,6 +20,9 @@ public class Application {
         List<DataModel> dataList=dataDao.findAll();
     }
 
+    public void setUsername(String username) {
+        
+    }
 
 
     public void returnLogin(MouseEvent mouseEvent) throws IOException {}
