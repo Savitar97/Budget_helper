@@ -12,4 +12,12 @@ public class DataDao extends GenericJPADao<DataModel> {
     private DataDao() {
         super(DataModel.class);
     }
+    
+    public static DataDao getInstance() {
+        if (instance == null) {
+            instance = new DataDao();
+            instance.setEntityManager(Persistence.createEntityManagerFactory("budgetunit").createEntityManager());
+        }
+        return instance;
+    }
 }
