@@ -33,4 +33,9 @@ public class DataModel {
 
     @Column
     private String comment;
+  
+     @PrePersist
+    protected void onPersist() {
+        created = ZonedDateTime.now();
+    }
 }
