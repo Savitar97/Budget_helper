@@ -1,1 +1,6 @@
-
+#Login{
+    -fx-font-size: 48px;
+    -fx-font-family: "Arial Black";
+    -fx-fill: #30f109;
+    -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+}
