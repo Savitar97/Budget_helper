@@ -14,4 +14,23 @@ import java.time.ZonedDateTime;
 @Builder
 @Entity
 public class DataModel {
+  
+   @Id
+    @GeneratedValue
+    private Long id;
+
+    @Column(nullable=false)
+    private String username;
+
+    @Column(nullable = false)
+    private Long amount;
+
+    @Column(nullable = false)
+    private ZonedDateTime created;
+
+    @Column(nullable = false)
+    private String description;
+
+    @Column
+    private String comment;
 }
