@@ -8,14 +8,14 @@ import lombok.NoArgsConstructor;
 import javax.persistence.*;
 import java.time.ZonedDateTime;
 
+@Builder
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Builder
 @Entity
 public class DataModel {
   
-   @Id
+    @Id
     @GeneratedValue
     private Long id;
 
@@ -26,15 +26,14 @@ public class DataModel {
     private Long amount;
 
     @Column(nullable = false)
-    private ZonedDateTime created;
-
-    @Column(nullable = false)
     private String description;
 
     @Column
     private String comment;
-  
-     @PrePersist
+
+    @Column(nullable = false)
+    private ZonedDateTime created;
+    @PrePersist
     protected void onPersist() {
         created = ZonedDateTime.now();
     }

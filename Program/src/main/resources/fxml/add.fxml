@@ -8,11 +8,11 @@
         <children>
             <Label id="Login" layoutX="139.0" layoutY="14.0" stylesheets="@css/login.css" text="Hozzáad" textFill="#47db14" />
             <Label id="felhasznalo" layoutX="64.0" layoutY="132.0" stylesheets="@css/login.css" text="Összeg:" />
-            <TextField layoutX="179.0" layoutY="131.0" />
+            <TextField fx:id="amount" layoutX="179.0" layoutY="131.0" />
             <Label id="felhasznalo" layoutX="80.0" layoutY="200.0" stylesheets="@css/login.css" text="Leírás:" />
-            <TextField layoutX="179.0" layoutY="199.0" />
+            <TextField fx:id="description" layoutX="179.0" layoutY="199.0" />
             <Label id="felhasznalo" layoutX="10.0" layoutY="272.0" stylesheets="@css/login.css" text="Megjegyzés:" />
-            <TextField layoutX="179.0" layoutY="271.0" />
+            <TextField fx:id="comment" layoutX="179.0" layoutY="271.0" />
             <Button id="green" layoutX="279.0" layoutY="334.0" mnemonicParsing="false" onMouseClicked="#addTable" prefHeight="38.0" prefWidth="103.0" stylesheets="@css/button.css" text="Hozzáad" />
             <Button id="red" layoutX="139.0" layoutY="334.0" mnemonicParsing="false" onMouseClicked="#returnApp" prefHeight="38.0" prefWidth="103.0" stylesheets="@css/button.css" text="Vissza" />
         </children></AnchorPane>

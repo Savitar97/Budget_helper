@@ -13,12 +13,14 @@ import javafx.scene.input.MouseEvent;
 import javafx.stage.Popup;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
+import main.App;
 import result.DataDao;
 import result.model.DataModel;
 
 import java.io.IOException;
 import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;
+import java.time.format.FormatStyle;
 import java.util.EventObject;
 import java.util.List;
 
@@ -48,34 +50,31 @@ public class Application {
         updateTable();
     }
 
+    @FXML
     public void updateTable(){
         List<DataModel> dataList=dataDao.findAll();
 
-        id.setCellValueFactory(new PropertyValueFactory<>("ID"));
-        username.setCellValueFactory(new PropertyValueFactory<>("Felhasználónév"));
-        created.setCellValueFactory(new PropertyValueFactory<>("Dátum"));
-        amount.setCellValueFactory(new PropertyValueFactory<>("Összeg"));
-        description.setCellValueFactory(new PropertyValueFactory<>("Leírás"));
-        comment.setCellValueFactory(new PropertyValueFactory<>("Komment"));
-
+        id.setCellValueFactory(new PropertyValueFactory<>("id"));
+        username.setCellValueFactory(new PropertyValueFactory<>("username"));
+        created.setCellValueFactory(new PropertyValueFactory<>("created"));
+        amount.setCellValueFactory(new PropertyValueFactory<>("amount"));
+        description.setCellValueFactory(new PropertyValueFactory<>("description"));
+        comment.setCellValueFactory(new PropertyValueFactory<>("comment"));
         created.setCellFactory(column -> {
             TableCell<DataModel, ZonedDateTime> cell = new TableCell<DataModel, ZonedDateTime>() {
-                private DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy/MM/dd - HH:mm:ss Z");
-
-                @Override
-                protected void updateItem(ZonedDateTime item, boolean empty) {
-                    super.updateItem(item, empty);
-                    if(empty) {
-                        setText(null);
+                    private DateTimeFormatter formatter = DateTimeFormatter.ofLocalizedDateTime(FormatStyle.LONG);
+                    @Override
+                    protected void updateItem(ZonedDateTime item, boolean empty) {
+                        super.updateItem(item, empty);
+                        if(empty) {
+                            setText(null);
+                        } else {
+                            setText(item.format(formatter));
+                        }
                     }
-                    else {
-                        setText(item.format(formatter));
-                    }
-                }
-            };
-
-            return cell;
-        });
+                };
+                return cell;
+            });
 
         ObservableList<DataModel> observableResult = FXCollections.observableArrayList();
         observableResult.addAll(dataList);
@@ -97,11 +96,14 @@ public class Application {
     }
 
     public void goToAdd(MouseEvent mouseEvent) throws IOException {
-        Parent root;
+
         try {
-            root = FXMLLoader.load(getClass().getClassLoader().getResource("fxml/add.fxml"));
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/fxml/add.fxml"));
+            Parent root = fxmlLoader.load();
+            fxmlLoader.<Add>getController().setUsername(userNameLabel.getText());
+            Add controller = fxmlLoader.getController();
+            controller.setApp(this);
             Stage stage = new Stage();
-            stage.setTitle("Add");
             stage.setResizable(false);
             stage.initStyle(StageStyle.UNDECORATED);
             stage.setScene(new Scene(root, 450, 450));
