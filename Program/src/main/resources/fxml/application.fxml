@@ -46,12 +46,11 @@
             </Pane>
             <TableView fx:id="dataTable" layoutX="120.0" layoutY="99.0" prefHeight="601.0" prefWidth="906.0">
                 <columns>
-                    <TableColumn fx:id="id" prefWidth="71.99996948242188" text="ID" />
                     <TableColumn fx:id="username" minWidth="0.0" prefWidth="180.80003356933594" text="Név" />
                     <TableColumn fx:id="created" prefWidth="175.20001220703125" text="Dátum" />
                     <TableColumn fx:id="amount" prefWidth="170.4000244140625" text="Összeg" />
                     <TableColumn fx:id="description" prefWidth="151.20001220703125" text="Leírás" />
-                    <TableColumn fx:id="comment" prefWidth="152.80002441406248" text="Megjegyzés" />
+                    <TableColumn fx:id="comment" prefWidth="225.0" text="Megjegyzés" />
                 </columns>
             </TableView>
             <Label alignment="CENTER" layoutX="129.0" layoutY="700.0" prefHeight="31.0" prefWidth="194.0" text="Összes bevétel:">
