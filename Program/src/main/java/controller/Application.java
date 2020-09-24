@@ -57,15 +57,24 @@ public class Application {
     }
 
     public void setTotalPos(Long value) {
-        this.totalPos.setText(value.toString());
+        if (value!=null) {
+            this.totalPos.setText(value.toString());
+        }
+        else this.totalPos.setText("0");
     }
 
     public void setTotalNeg(Long value) {
-        this.totalNeg.setText(value.toString());
+        if (value!=null) {
+            this.totalNeg.setText(value.toString());
+        }
+        else this.totalNeg.setText("0");
     }
 
     public void setTotalVal(Long value) {
-        this.totalVal.setText(value.toString());
+        if (value!=null) {
+            this.totalVal.setText(value.toString());
+        }
+        else this.totalVal.setText("0");
     }
 
     @FXML
@@ -131,5 +140,16 @@ public class Application {
         catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+    public void removeSelected(MouseEvent mouseEvent) {
+        try {
+            dataDao.remove(dataTable.getSelectionModel().getSelectedItem());
+            setGraphic();
+        }
+        catch (Exception e){
+            throw new IllegalStateException();
+        }
+
     }
 }

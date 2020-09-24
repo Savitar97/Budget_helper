@@ -14,7 +14,7 @@ import java.time.ZonedDateTime;
 @AllArgsConstructor
 @Entity
 public class DataModel {
-  
+
     @Id
     @GeneratedValue
     private Long id;

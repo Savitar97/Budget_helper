@@ -13,7 +13,7 @@
                 <children>
                     <Button id="purple" layoutX="20.0" layoutY="304.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="80.0" stylesheets="@css/button.css" text="Módosít" />
                     <Button id="green" layoutX="20.0" layoutY="194.0" mnemonicParsing="false" onMouseClicked="#goToAdd" prefHeight="40.0" prefWidth="80.0" stylesheets="@css/button.css" text="Hozzáad" />
-                    <Button id="red" layoutX="20.0" layoutY="250.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="80.0" stylesheets="@css/button.css" text="Töröl" />
+                    <Button id="red" layoutX="20.0" layoutY="250.0" mnemonicParsing="false" onMouseClicked="#removeSelected" prefHeight="40.0" prefWidth="80.0" stylesheets="@css/button.css" text="Töröl" />
                     <Button id="exit" layoutX="33.0" layoutY="705.0" mnemonicParsing="false" onMouseClicked="#returnLogin" prefHeight="50.0" prefWidth="50.0" styleClass="special" stylesheets="@css/button.css">
                         <graphic>
                             <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
