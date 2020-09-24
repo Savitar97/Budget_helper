@@ -14,6 +14,17 @@ import java.time.ZonedDateTime;
 @AllArgsConstructor
 @Entity
 public class DataModel {
+    public void setAmount(Long amount) {
+        this.amount = amount;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public void setComment(String comment) {
+        this.comment = comment;
+    }
 
     @Id
     @GeneratedValue

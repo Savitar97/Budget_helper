@@ -11,7 +11,7 @@
         <children>
             <Pane prefHeight="770.0" prefWidth="120.0" style="-fx-background-color: #172333;">
                 <children>
-                    <Button id="purple" layoutX="20.0" layoutY="304.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="80.0" stylesheets="@css/button.css" text="Módosít" />
+                    <Button id="purple" layoutX="20.0" layoutY="304.0" mnemonicParsing="false" onMouseClicked="#goToModify" prefHeight="40.0" prefWidth="80.0" stylesheets="@css/button.css" text="Módosít" />
                     <Button id="green" layoutX="20.0" layoutY="194.0" mnemonicParsing="false" onMouseClicked="#goToAdd" prefHeight="40.0" prefWidth="80.0" stylesheets="@css/button.css" text="Hozzáad" />
                     <Button id="red" layoutX="20.0" layoutY="250.0" mnemonicParsing="false" onMouseClicked="#removeSelected" prefHeight="40.0" prefWidth="80.0" stylesheets="@css/button.css" text="Töröl" />
                     <Button id="exit" layoutX="33.0" layoutY="705.0" mnemonicParsing="false" onMouseClicked="#returnLogin" prefHeight="50.0" prefWidth="50.0" styleClass="special" stylesheets="@css/button.css">

@@ -152,4 +152,22 @@ public class Application {
         }
 
     }
+
+    public void goToModify(MouseEvent mouseEvent) {
+        try {
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/fxml/modify.fxml"));
+            Parent root = fxmlLoader.load();
+            fxmlLoader.<Modify>getController().setDataModel(dataTable.getSelectionModel().getSelectedItem());
+            Modify controller = fxmlLoader.getController();
+            controller.setApp(this);
+            Stage stage = new Stage();
+            stage.setResizable(false);
+            stage.initStyle(StageStyle.UNDECORATED);
+            stage.setScene(new Scene(root, 450, 450));
+            stage.show();
+        }
+        catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 }
