@@ -4,6 +4,7 @@ import jpa.GenericJPADao;
 import result.model.DataModel;
 
 import javax.persistence.Persistence;
+import javax.persistence.TypedQuery;
 import java.util.List;
 
 public class DataDao extends GenericJPADao<DataModel> {
@@ -24,5 +25,16 @@ public class DataDao extends GenericJPADao<DataModel> {
     public List<DataModel> findAll() {
         return entityManager.createQuery("SELECT r FROM DataModel r order by r.created DESC", DataModel.class)
                 .getResultList();
+    }
+
+    public Long totalPositiveValue() {
+        return entityManager.createQuery("SELECT SUM(l.amount) FROM DataModel l WHERE l.amount>0", Long.class).getSingleResult();
+    }
+
+    public Long totalNegativeValue() {
+        return entityManager.createQuery("SELECT SUM(l.amount) FROM DataModel l WHERE l.amount<0", Long.class).getSingleResult();
+    }
+    public Long totalValue() {
+        return entityManager.createQuery("SELECT SUM(l.amount) FROM DataModel l", Long.class).getSingleResult();
     }
 }

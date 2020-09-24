@@ -29,6 +29,12 @@ public class Application {
     @FXML
     public Label userNameLabel;
     @FXML
+    public Label totalPos;
+    @FXML
+    public Label totalNeg;
+    @FXML
+    public Label totalVal;
+    @FXML
     private TableColumn<DataModel, Long> id;
     @FXML
     private TableView<DataModel> dataTable;
@@ -47,13 +53,24 @@ public class Application {
 
     public void initialize(){
         dataDao=DataDao.getInstance();
-        updateTable();
+        setGraphic();
+    }
+
+    public void setTotalPos(Long value) {
+        this.totalPos.setText(value.toString());
+    }
+
+    public void setTotalNeg(Long value) {
+        this.totalNeg.setText(value.toString());
+    }
+
+    public void setTotalVal(Long value) {
+        this.totalVal.setText(value.toString());
     }
 
     @FXML
-    public void updateTable(){
+    public void setGraphic(){
         List<DataModel> dataList=dataDao.findAll();
-
         id.setCellValueFactory(new PropertyValueFactory<>("id"));
         username.setCellValueFactory(new PropertyValueFactory<>("username"));
         created.setCellValueFactory(new PropertyValueFactory<>("created"));
@@ -78,8 +95,10 @@ public class Application {
 
         ObservableList<DataModel> observableResult = FXCollections.observableArrayList();
         observableResult.addAll(dataList);
-
         dataTable.setItems(observableResult);
+        setTotalPos(dataDao.totalPositiveValue());
+        setTotalNeg(dataDao.totalNegativeValue());
+        setTotalVal(dataDao.totalValue());
     }
 
     public void setUsername(String username) {

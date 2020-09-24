@@ -36,7 +36,7 @@ public class Add {
                     .comment(comment.getText())
                     .build();
             dataDao.persist(mod);
-            app.updateTable();
+            app.setGraphic();
             Stage stage = (Stage) ((Node) mouseEvent.getSource()).getScene().getWindow();
             stage.close();
         }
