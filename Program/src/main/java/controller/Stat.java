@@ -25,5 +25,11 @@ public class Stat {
     public Button creator;
 
     private DataDao dataDao;
+  
+    @FXML
+    private void initChoices() {
+        selected.setItems(choices);
+        selected.setValue(choices.get(0));
+    }
 
 }
