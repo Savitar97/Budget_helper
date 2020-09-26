@@ -23,7 +23,7 @@
                             </ImageView>
                         </graphic>
                     </Button>
-                    <Button layoutX="32.0" layoutY="620.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="special" stylesheets="@css/button.css">
+                    <Button layoutX="32.0" layoutY="620.0" onMouseClicked="#goToStat" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="special" stylesheets="@css/button.css">
                         <graphic>
                             <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
                                 <image>

@@ -19,3 +19,7 @@
     -jfx-focus-color: -fx-secondary;
     -fx-text-fill: derive(-fx-secondary, 20%);
 }
+
+.axis-label {
+    -fx-text-fill: #4682b4;
+}

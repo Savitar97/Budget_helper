@@ -51,35 +51,34 @@ public class Application {
 
     private DataDao dataDao;
 
-    public void initialize(){
-        dataDao=DataDao.getInstance();
+    public void initialize() {
+        dataDao = DataDao.getInstance();
         setGraphic();
     }
-
+    @FXML
     public void setTotalPos(Long value) {
-        if (value!=null) {
-            this.totalPos.setText(value.toString());
-        }
-        else this.totalPos.setText("0");
+        if (value != null) {
+            this.totalPos.setText(value.toString() + " Ft");
+        } else this.totalPos.setText("0 Ft");
     }
-
+    @FXML
     public void setTotalNeg(Long value) {
-        if (value!=null) {
-            this.totalNeg.setText(value.toString());
-        }
-        else this.totalNeg.setText("0");
-    }
-
-    public void setTotalVal(Long value) {
-        if (value!=null) {
-            this.totalVal.setText(value.toString());
-        }
-        else this.totalVal.setText("0");
+        if (value != null) {
+            this.totalNeg.setText(value.toString() + " Ft");
+        } else this.totalNeg.setText("0 Ft");
     }
 
     @FXML
-    public void setGraphic(){
-        List<DataModel> dataList=dataDao.findAll();
+    public void setTotalVal(Long value) {
+        if (value != null) {
+            this.totalVal.setText(value.toString() + " Ft");
+        } else this.totalVal.setText("0 Ft");
+    }
+
+    @FXML
+    public void setGraphic() {
+        List<DataModel> dataList = dataDao.findAll();
+        System.out.println(dataList);
         username.setCellValueFactory(new PropertyValueFactory<>("username"));
         created.setCellValueFactory(new PropertyValueFactory<>("created"));
         amount.setCellValueFactory(new PropertyValueFactory<>("amount"));
@@ -87,19 +86,20 @@ public class Application {
         comment.setCellValueFactory(new PropertyValueFactory<>("comment"));
         created.setCellFactory(column -> {
             TableCell<DataModel, ZonedDateTime> cell = new TableCell<DataModel, ZonedDateTime>() {
-                    private DateTimeFormatter formatter = DateTimeFormatter.ofLocalizedDateTime(FormatStyle.LONG);
-                    @Override
-                    protected void updateItem(ZonedDateTime item, boolean empty) {
-                        super.updateItem(item, empty);
-                        if(empty) {
-                            setText(null);
-                        } else {
-                            setText(item.format(formatter));
-                        }
+                private DateTimeFormatter formatter = DateTimeFormatter.ofLocalizedDateTime(FormatStyle.LONG);
+
+                @Override
+                protected void updateItem(ZonedDateTime item, boolean empty) {
+                    super.updateItem(item, empty);
+                    if (empty) {
+                        setText(null);
+                    } else {
+                        setText(item.format(formatter));
                     }
-                };
-                return cell;
-            });
+                }
+            };
+            return cell;
+        });
 
         ObservableList<DataModel> observableResult = FXCollections.observableArrayList();
         observableResult.addAll(dataList);
@@ -108,12 +108,12 @@ public class Application {
         setTotalNeg(dataDao.totalNegativeValue());
         setTotalVal(dataDao.totalValue());
     }
-
+    @FXML
     public void setUsername(String username) {
         userNameLabel.setText(username);
     }
 
-
+    @FXML
     public void returnLogin(MouseEvent mouseEvent) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/fxml/launch.fxml"));
         Parent root = fxmlLoader.load();
@@ -121,7 +121,7 @@ public class Application {
         stage.setScene(new Scene(root));
         stage.show();
     }
-
+    @FXML
     public void goToAdd(MouseEvent mouseEvent) throws IOException {
 
         try {
@@ -135,23 +135,21 @@ public class Application {
             stage.initStyle(StageStyle.UNDECORATED);
             stage.setScene(new Scene(root, 450, 450));
             stage.show();
-        }
-        catch (IOException e) {
+        } catch (IOException e) {
             e.printStackTrace();
         }
     }
-
+    @FXML
     public void removeSelected(MouseEvent mouseEvent) {
         try {
             dataDao.remove(dataTable.getSelectionModel().getSelectedItem());
             setGraphic();
-        }
-        catch (Exception e){
+        } catch (Exception e) {
             throw new IllegalStateException();
         }
 
     }
-
+    @FXML
     public void goToModify(MouseEvent mouseEvent) {
         try {
             FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/fxml/modify.fxml"));
@@ -164,9 +162,18 @@ public class Application {
             stage.initStyle(StageStyle.UNDECORATED);
             stage.setScene(new Scene(root, 450, 450));
             stage.show();
-        }
-        catch (IOException e) {
+        } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+    @FXML
+    public void goToStat(MouseEvent mouseEvent) throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/fxml/statistics.fxml"));
+        Parent root = fxmlLoader.load();
+        Stage stage = new Stage();
+        stage.setResizable(false);
+        stage.initStyle(StageStyle.UNDECORATED);
+        stage.setScene(new Scene(root, 1024, 768));
+        stage.show();
     }
 }
