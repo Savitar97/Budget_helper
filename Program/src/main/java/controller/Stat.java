@@ -31,5 +31,16 @@ public class Stat {
         selected.setItems(choices);
         selected.setValue(choices.get(0));
     }
+  
+     public void initialize(){
+        dataDao = DataDao.getInstance();
+        initChoices();
+    }
+
+    @FXML
+    public void returnApp(MouseEvent mouseEvent) {
+        Stage stage = (Stage) ((Node) mouseEvent.getSource()).getScene().getWindow();
+        stage.close();
+    }
 
 }
