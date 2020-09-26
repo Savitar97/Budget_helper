@@ -12,5 +12,18 @@ import result.DataDao;
 import java.util.List;
 
 public class Stat {
+  
+   ObservableList<String> choices= FXCollections.observableArrayList("napi","havi");
+
+    @FXML
+    public BarChart statDiagramm;
+
+    @FXML
+    public ChoiceBox selected;
+
+    @FXML
+    public Button creator;
+
+    private DataDao dataDao;
 
 }
