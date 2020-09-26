@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="768" prefWidth="1024" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Stat">
+    <AnchorPane prefHeight="768.0" prefWidth="1024.0">
+        <children>
+            <Button layoutX="487.0" layoutY="695.0" mnemonicParsing="false" onMouseClicked="#returnApp" prefHeight="45.0" prefWidth="90.0" styleClass="special" stylesheets="@css/button.css" text="Vissza">
+                <font>
+                    <Font size="14.0" />
+                </font>
+            </Button>
+            <Label id="Login" alignment="CENTER" layoutX="365.0" layoutY="36.0" stylesheets="@css/login.css" text="Statisztikák" textFill="#e80909" />
+         <Label layoutX="358.0" layoutY="128.0" text="Típus:" textFill="WHITE">
+            <font>
+               <Font size="21.0" />
+            </font>
+         </Label>
+         <Button layoutX="590.0" layoutY="127.0" mnemonicParsing="false" onMouseClicked="#generateStat" styleClass="special" stylesheets="@css/button.css" text="Ok" />
+         <ChoiceBox fx:id="selected" layoutX="422.0" layoutY="128.0" prefWidth="150.0" />
+         <BarChart fx:id="statDiagramm" layoutX="29.0" layoutY="154.0" prefHeight="525.0" prefWidth="952.0">
+           <xAxis>
+             <CategoryAxis animated="false" label="Dátum" side="BOTTOM" tickLabelFill="WHITE" />
+           </xAxis>
+           <yAxis>
+             <NumberAxis label="Ft" side="LEFT" tickLabelFill="WHITE" />
+           </yAxis>
+         </BarChart>
+        </children></AnchorPane>
+   <stylesheets>
+      <URL value="@css/AnchorPane.css" />
+      <URL value="@css/AnchorPane.css" />
+   </stylesheets>
+</AnchorPane>
