@@ -19,19 +19,16 @@ public class Stat {
    ObservableList<String> choices= FXCollections.observableArrayList("napi","havi");
 
     @FXML
-    public BarChart statDiagramm;
+    public BarChart<Object,Object> statDiagramm;
 
     @FXML
     public ChoiceBox selected;
-
-    @FXML
-    public Button creator;
 
     private DataDao dataDao;
   
     @FXML
     private void initChoices() {
-        selected.setItems(choices);
+        selected.getItems().addAll(choices);
         selected.setValue(choices.get(0));
     }
   
@@ -49,25 +46,24 @@ public class Stat {
     @FXML
     public void generateStat(MouseEvent mouseEvent) {
         statDiagramm.getData().clear();
-        XYChart.Series dataSeries;
+        XYChart.Series<Object,Object> dataSeries;
         if (selected.getValue().equals("napi")){
-
             List<Object[]> statisticsData = dataDao.getDailyStatistic();
-            for(Object[] element : statisticsData){
-                dataSeries = new XYChart.Series();
-                dataSeries.setName(element[0].toString());
-                dataSeries.getData().add(new XYChart.Data(element[0], element[1]));
-                statDiagramm.getData().addAll(dataSeries);
-            }
+            setBarchar(statisticsData);
         }
         else {
             List<Object[]> statisticsData = dataDao.getMonthlyStatistic();
-            for(Object[] element : statisticsData){
-                dataSeries = new XYChart.Series();
-                dataSeries.setName(element[0].toString());
-                dataSeries.getData().add(new XYChart.Data(element[0], element[1]));
-                statDiagramm.getData().addAll(dataSeries);
-            }
+            setBarchar(statisticsData);
+        }
+    }
+
+    private void setBarchar(List<Object[]> statisticsData) {
+        XYChart.Series<Object,Object> dataSeries;
+        for(Object[] element : statisticsData){
+            dataSeries = new XYChart.Series<Object, Object>();
+            dataSeries.setName(element[0].toString());
+            dataSeries.getData().add(new XYChart.Data<Object,Object>(element[0], element[1]));
+            statDiagramm.getData().addAll(dataSeries);
         }
     }
 
