@@ -42,5 +42,30 @@ public class Stat {
         Stage stage = (Stage) ((Node) mouseEvent.getSource()).getScene().getWindow();
         stage.close();
     }
+  
+    @FXML
+    public void generateStat(MouseEvent mouseEvent) {
+        statDiagramm.getData().clear();
+        XYChart.Series dataSeries;
+        if (selected.getValue().equals("napi")){
+
+            List<Object[]> statisticsData = dataDao.getDailyStatistic();
+            for(Object[] element : statisticsData){
+                dataSeries = new XYChart.Series();
+                dataSeries.setName(element[0].toString());
+                dataSeries.getData().add(new XYChart.Data(element[0], element[1]));
+                statDiagramm.getData().addAll(dataSeries);
+            }
+        }
+        else {
+            List<Object[]> statisticsData = dataDao.getMonthlyStatistic();
+            for(Object[] element : statisticsData){
+                dataSeries = new XYChart.Series();
+                dataSeries.setName(element[0].toString());
+                dataSeries.getData().add(new XYChart.Data(element[0], element[1]));
+                statDiagramm.getData().addAll(dataSeries);
+            }
+        }
+    }
 
 }
