@@ -135,3 +135,14 @@ A main osztály lesz a felelős a program indításáért.
 
 A controllerben fogjuk lekezelni a view és a modell közötti kapcsolatokat. A view a grafikus felület lesz vagy másnéven a GUI. Ezek fxml állományokként találhatóak meg illetve CSS-el vannak támogatva. A modell az adatbázissal fogja tartani a kapcsolatot.
 
+
+
+## Tesztlépések dokumentálása:
+
+- Felhasználónév input megadása betűkkel -> helyes, elfogadja, továbblép
+- Felhasználónév input megadása betűkkel és számokkal -> helyes, elfogadja, továbblép
+- Felhasználónév input megadása: üresen hagyva próbál a felhasználó belépni -> helyes, kiírja, hogy felhasználónév megadása kötelező
+- Új bejegyzés hozzáadása összeg (szám), leírás (betű), megjegyzés (betű) formában -> helyes, berakja az adatbázisba
+- Új bejegyzés hozzáadása összeg (szám), leírás (betű és szám), megjegyzés (betű) formában -> helyes, berakja az adatbázisba
+- Új bejegyzés hozzáadása összeg (szám), leírás (betű), megjegyzés (betű és szám) formában -> helyes, berakja az adatbázisba
+- Új bejegyzésen belül a leíráshoz és megjegyzéshez bármilyen string írható -> helyes, továbblép
