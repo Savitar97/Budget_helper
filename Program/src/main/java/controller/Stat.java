@@ -1,9 +1,6 @@
 package controller;
 
-<<<<<<< HEAD
 import javafx.collections.FXCollections;
-=======
->>>>>>> 94ac673af6e10b65c6ce2d311dd50e5fb5dbd3b6
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.scene.Node;
