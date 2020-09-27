@@ -37,7 +37,7 @@
                             </ImageView>
                         </graphic>
                     </Button>
-               <ImageView fitHeight="132.0" fitWidth="135.0" layoutX="-8.0" pickOnBounds="true" preserveRatio="true">
+               <ImageView fitHeight="132.0" fitWidth="132.0" layoutX="-8.0" layoutY="-10.0" pickOnBounds="true" preserveRatio="true">
                   <image>
                      <Image url="@../images/productimage.png" />
                   </image>
@@ -47,12 +47,12 @@
             </Pane>
             <Pane layoutX="117.0" prefHeight="98.0" prefWidth="911.0" style="-fx-background-color: #172333;">
                 <children>
-                    <Label fx:id="userNameLabel" layoutX="94.0" layoutY="16.0" prefHeight="66.0" prefWidth="329.0" text="Felhasználónév" textFill="#42cd47">
+                    <Label fx:id="userNameLabel" layoutX="370.0" layoutY="16.0" prefHeight="66.0" prefWidth="329.0" text="Felhasználónév" textFill="#42cd47">
                         <font>
                             <Font name="Berlin Sans FB" size="32.0" />
                         </font>
                     </Label>
-               <ImageView fitHeight="66.0" fitWidth="62.0" layoutX="25.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+               <ImageView fitHeight="66.0" fitWidth="62.0" layoutX="301.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
                   <image>
                      <Image url="@../images/user.png" />
                   </image>
