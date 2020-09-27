@@ -146,3 +146,12 @@ A controllerben fogjuk lekezelni a view és a modell közötti kapcsolatokat. A 
 - Új bejegyzés hozzáadása összeg (szám), leírás (betű és szám), megjegyzés (betű) formában -> helyes, berakja az adatbázisba
 - Új bejegyzés hozzáadása összeg (szám), leírás (betű), megjegyzés (betű és szám) formában -> helyes, berakja az adatbázisba
 - Új bejegyzésen belül a leíráshoz és megjegyzéshez bármilyen string írható -> helyes, továbblép
+- Új bejegyzés hozzáadása amennyiben az összeghez betűt próbál írni a felhasználó elindul a háttérben egy exception és nem engedi hozzáadni a bejegyzést -> helyes
+- Helytelen összeg input javítása után a leírás és és megjegyzés formátuma nem kötött -> helyes, hozzáad
+- Leírás és megjegyzés részben megengedettek a speciális karakterek -> helyes
+- A leírás és az összeg megadása kötelező -> helyes
+- Megjegyzés hozzáadása opcionális -> helyes
+- Bejegyzés kiválasztása után módosítás: összeg(szám), leírás(string), megjegyzés(string) formátumban -> helyes, átírja
+- Bejegyzés kiválasztása után módosítás: összeg(szám és betű), leírás(string), megjegyzés(string) formátumban -> helyes, exception miatt nem lép tovább, ameddig nem csak szám lesz az összeg inputja
+- A bejegyzésben létrehozásnál és módosításnál is lehet 0-át írni, jegyzetként funkcionál ebben az esetben -> helyes
+
