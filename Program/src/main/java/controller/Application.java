@@ -78,7 +78,6 @@ public class Application {
     @FXML
     public void setGraphic() {
         List<DataModel> dataList = dataDao.findAll();
-        System.out.println(dataList);
         username.setCellValueFactory(new PropertyValueFactory<>("username"));
         created.setCellValueFactory(new PropertyValueFactory<>("created"));
         amount.setCellValueFactory(new PropertyValueFactory<>("amount"));
