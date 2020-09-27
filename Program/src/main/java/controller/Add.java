@@ -58,6 +58,5 @@ public class Add {
 
     public void setUsername(String text) {
          this.user = text;
-        System.out.println(user);
     }
 }
