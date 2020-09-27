@@ -28,10 +28,10 @@
          <ChoiceBox fx:id="selected" layoutX="422.0" layoutY="128.0" prefWidth="150.0" />
          <BarChart fx:id="statDiagramm" alternativeColumnFillVisible="true" layoutX="29.0" layoutY="154.0" prefHeight="525.0" prefWidth="952.0">
            <xAxis>
-             <CategoryAxis fx:id="axis" animated="false" label="Dátum" side="BOTTOM" tickLabelFill="WHITE" />
+             <CategoryAxis fx:id="xAxis" animated="false" label="Dátum" side="BOTTOM" tickLabelFill="WHITE" />
            </xAxis>
            <yAxis>
-             <NumberAxis animated="false" label="Ft" side="LEFT" tickLabelFill="WHITE" />
+             <NumberAxis fx:id="yAxis" animated="false" label="Ft" side="LEFT" tickLabelFill="WHITE" />
            </yAxis>
          </BarChart>
         </children></AnchorPane>

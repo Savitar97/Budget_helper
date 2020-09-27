@@ -15,6 +15,7 @@ import java.util.List;
 
 public class Stat {
 
+
     ObservableList<String> choices= FXCollections.observableArrayList("napi","havi");
 
     @FXML
@@ -62,6 +63,7 @@ public class Stat {
             dataSeries.setName(element[0].toString());
             dataSeries.getData().add(new XYChart.Data<>(element[0].toString(), Long.parseLong(element[1].toString())));
             statDiagramm.getData().addAll(dataSeries);
+
         }
     }
 
