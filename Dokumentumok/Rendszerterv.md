@@ -154,4 +154,12 @@ A controllerben fogjuk lekezelni a view és a modell közötti kapcsolatokat. A 
 - Bejegyzés kiválasztása után módosítás: összeg(szám), leírás(string), megjegyzés(string) formátumban -> helyes, átírja
 - Bejegyzés kiválasztása után módosítás: összeg(szám és betű), leírás(string), megjegyzés(string) formátumban -> helyes, exception miatt nem lép tovább, ameddig nem csak szám lesz az összeg inputja
 - A bejegyzésben létrehozásnál és módosításnál is lehet 0-át írni, jegyzetként funkcionál ebben az esetben -> helyes
+- Az oszlopok széléssége módosítható -> helyes
+- Egyes oszlopok szélesítése után is megtekinthető minden oszlop -> helyes
+- Bejegyzés kijelölése után törlés gomb -> helyes, eltávolítja az adatbázisból
+- Statisztikák gomb: megjelenik a statisztikák ablak -> helyes
+- Statisztikák ablakon a napi/havi kimutatás kiválasztása után "ok" gomb -> megjeleníti, helyes
+- Statisztikák ablakból vissza gomb: főoldalra a bejegyzésekhez dob -> helyes
+- Kilépés gomb: lehetőséget ad a felhasználó váltásra -> helyes
+- Másik felhasználó megadása és továbblépés: a többi felhasználó bejegyzését is láthatja (mint egy családi kassza) -> helyes
 
