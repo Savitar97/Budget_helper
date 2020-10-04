@@ -41,7 +41,12 @@ public class Add {
             stage.close();
         }
         catch (Exception e){
-            throw  new IllegalArgumentException();
+           Alert alert = new Alert(AlertType.ERROR);
+           alert.setTitle("Hiba");
+           alert.setHeaderText(null);
+           alert.setContentText("A bemenő adat csak szám lehet");
+           alert.showAndWait();
+           throw new IllegalArgumentException();
         }
 
     }
