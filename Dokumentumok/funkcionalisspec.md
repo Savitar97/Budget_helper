@@ -118,8 +118,8 @@ A követelményspecifikációban megfogalmazott követelménylista alapján a k�
 - K04: A felhasznált pénznem forint
 - K05: A 'Statisztikák' menüben elérhetőek a heti és havi bontásban elkülönített gráfok és ábrák
 - K06: A 'Hozzáad' funkcióval a felhasználó írhat bármilyen megjegyzést
+- K07: Abban az esetben ahol a felhasználó valamely funkciót nem megfelelően használja felugró hibaüzenetet kap, amely értesíti arról, hogy mit rontott el, majd visszakerül a fő        ablakra.
 
-Abban az esetben ahol a felhasználó valamely funkciót nem megfelelően használja felugró hibaüzenetet kap, amely értesíti arról, hogy mit rontott el, majd visszakerül a fő ablakra.
 
 ## Használati esetek
 
