@@ -44,8 +44,9 @@ aki csak szimplán egyszerű és gyors módon szeretné követni az egyenlegét 
 
 &nbsp;&nbsp;&nbsp;&nbsp;Maga a megvalósítás egy személyi megkeresés miatt került az asztalra, aki rendelni szeretne egy a saját igényeihez passzoló követő alkalmazást.
 A rendszer jellemzőivel pedig így Ufo Peti kéréseinek és elképzeléseinek tervezünk megfelelni.
-Célunk egy olyan alkalmazás létrehozása, amelyben a felhasználó teljesen le tudja követni a bevételei és a kiadásai arányát havi és napi bontásban, ezzel átláthatóan felügyelve a költségvetését, a dokumentáció során felmerülő hibákat gyorsan és egyszerűen tudja javítani, és a jövőben elkerülni érthető magyarázatok segítségével.
-Tehát, amennyiben szeretné, akkor megálljt tud parancsolni magának.
+Célunk egy olyan alkalmazás létrehozása, amelyben a felhasználó teljesen le tudja követni a bevételei és a kiadásai arányát havi és napi bontásban, ezzel átláthatóan felügyelve 
+a költségvetését, a dokumentáció során felmerülő hibákat gyorsan és egyszerűen tudja javítani, és a jövőben elkerülni érthető magyarázatok segítségével, ezzel elősegítve, hogy amennyiben szeretné, akkor megálljt tudjon parancsolni magának.
+
 
 
 ## 3. Jelenlegi üzleti folyamatok
