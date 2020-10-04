@@ -32,6 +32,8 @@ vonaldiagrammokhoz kell folyamodnunk.
 kivehetőek legyenek a gombok, és a későbbiekben akár már megszokásból színek alapján is képes legyen a felhasználó megjegyezni és hozzátársítani a funkciót az
 adott gombhoz.
 
+- Amennyiben a felhasználó hibásan használja az alkalmazást, érthető leírást kapjon arról, hogy mit rontott el, majd minél hamarabb térhessen vissza az alkalmazás használatához.
+
 - A cél, hogy az itt leírtakhoz próbáljunk minél jobban közelíteni az alkalmazás végleges változatában.
 
 
@@ -100,6 +102,12 @@ Itt majd a back gomb használatával tudunk vissza navigálni az applikációs a
 - Egy felugró ablakban megerősítheti vagy elvetheti a használat közben bevitt értékeket, módosításokat, illetve visszatérhet az alkalmazásba.
 - A módosítások mentése vagy elvetése után a program bezárul.
 
+### Hibás adatbevitel: 
+
+- A felhasználó hibás értéket visz be valamely fent említett folyamat során.
+- A felhasználót felugró hibaüzenet értesíti a nem megfelelő használatról.
+- Az ablak a következő kattintásra bezárul, és a felhasználó visszakerül a fő ablakba.
+
 ## Megfeleltetés
 
 A követelményspecifikációban megfogalmazott követelménylista alapján a következő igényelt funkciókat tartalmazza az alkalmazás.
@@ -110,6 +118,8 @@ A követelményspecifikációban megfogalmazott követelménylista alapján a k�
 - K04: A felhasznált pénznem forint
 - K05: A 'Statisztikák' menüben elérhetőek a heti és havi bontásban elkülönített gráfok és ábrák
 - K06: A 'Hozzáad' funkcióval a felhasználó írhat bármilyen megjegyzést
+
+Abban az esetben ahol a felhasználó valamely funkciót nem megfelelően használja felugró hibaüzenetet kap, amely értesíti arról, hogy mit rontott el, majd visszakerül a fő ablakra.
 
 ## Használati esetek
 
@@ -144,5 +154,6 @@ De térjünk is a lényegre. Mi az, amit Ufó Peti megtehet az alkalmazásban?
 - Preferált: elsőbbséget élvez valami.
 - UML diagramm: Unified Modeling Language rövidítése, és ez egy szabványos, általános célű modellezési nyelv.
 - Tranzakció: üzleti tevékenység, jelen esetben a pénzmozgatás jellemzésére szolgál.
+- Error label: Felugró értesítés vagy figyelmeztetés az alkalmazás nem megfelelő használatáról.
 
 
