@@ -44,7 +44,7 @@ aki csak szimplán egyszerű és gyors módon szeretné követni az egyenlegét 
 
 &nbsp;&nbsp;&nbsp;&nbsp;Maga a megvalósítás egy személyi megkeresés miatt került az asztalra, aki rendelni szeretne egy a saját igényeihez passzoló követő alkalmazást.
 A rendszer jellemzőivel pedig így Ufo Peti kéréseinek és elképzeléseinek tervezünk megfelelni.
-Célunk egy olyan alkalmazás létrehozása, amelyben a felhasználó teljesen le tudja követni a bevételei és a kiadásai arányát havi és napi bontásban, ezzel átláthatóan felügyelve a költségvetését.
+Célunk egy olyan alkalmazás létrehozása, amelyben a felhasználó teljesen le tudja követni a bevételei és a kiadásai arányát havi és napi bontásban, ezzel átláthatóan felügyelve a költségvetését, a dokumentáció során felmerülő hibákat gyorsan és egyszerűen tudja javítani, és a jövőben elkerülni érthető magyarázatok segítségével.
 Tehát, amennyiben szeretné, akkor megálljt tud parancsolni magának.
 
 
@@ -77,4 +77,5 @@ Emiatt pedig nagy problémája, hogy hosszú távon nem tudja lekövetni a kiad�
 - K04. A felhasznált pénznem legyen forint.
 - K05. Legyenek elérhetőek statisztikai kimutatások a felhasználó költekezéséről havi és heti bontásban.
 - K06. Minden egyes pénzmozgáshoz a felhasználó opcionálisan fűzhessen megjegyzést (pl hogy éppen mire költötte az adott összeget).
+- K07. A felmerülő hibák kezelése, a program által biztosított utasításokkal azok jövőben való elkerülése
 
