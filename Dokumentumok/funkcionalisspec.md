@@ -70,7 +70,7 @@ Remove: ezzel leszünk képesek törölni egy megadott mezőt az adatbázisunkb�
 Ez a következőhöz hasonlóképpen fog kinézni:
 
 ![Statistics Stage raw](Resources/StatisticsStage.png)
-
+ 
 
 Itt majd a back gomb használatával tudunk vissza navigálni az applikációs ablakra.
 
