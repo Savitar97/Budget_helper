@@ -162,4 +162,5 @@ A controllerben fogjuk lekezelni a view és a modell közötti kapcsolatokat. A 
 - Statisztikák ablakból vissza gomb: főoldalra a bejegyzésekhez dob -> helyes
 - Kilépés gomb: lehetőséget ad a felhasználó váltásra -> helyes
 - Másik felhasználó megadása és továbblépés: a többi felhasználó bejegyzését is láthatja (mint egy családi kassza) -> helyes
+- Összeg hibás megadása, betűk bevitele szám helyett: hibaüzenet megjelenik, az érték nem kerül be a táblázatba és a program nem áll le -> helyes
 
